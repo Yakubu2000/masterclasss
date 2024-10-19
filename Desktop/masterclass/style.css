@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color: #D760C7;
+    --secondary-color: #3DD8D0;
+    --background-color: #000;
+    --text-color: #fff;
+    --font-family: 'Manrope',sans-serif;
+}
+body{
+    font-family: var(--font-family);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+#logo-figure{
+    display: inline-flex;
+    align-items: center;
+    gap: 1rem;
+
+}
+#logo-figure img {
+    width: 50px;
+    height: 50px;
+}
+#logo-figure figcaption{
+    font-size: clamp(2rem, 2vw, 2.5rem);
+    font-weight:500 ;
+}
+#hero-sectoin{
+    padding: 1rem;
+}
+#hero-sectoin h1{
+    font-size: clamp(2rem, 2vw, 3rem);
+    font-weight:500 ;
+    margin-bottom: 1rem;
+}
+#hero-sectoin p{
+    font-size: clamp(1rem, 1vw, 1.5rem);
+   line-height: 1.5;
+    margin-bottom: 1rem;
+}
+.btn{
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    border-radius:5px ;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+/* card sectoin */
+#card-sectoin{
+    padding: 1rem;
+}
+#card-sectoin h1{
+    font-size: clamp(2rem, 2vw, 3rem);
+    font-weight:500 ;
+    margin-bottom: 1rem;
+   
+    
+}
+#card-sectoin p{
+    font-size: clamp(1rem, 1vw, 1.5rem);
+   line-height: 1.5;
+    margin-bottom: 1rem;
+}
+.btn{
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color:var(--primary-color);
+    color: var(--text-color);
+    border-radius:5px ;
+    border: none;
+    cursor: pointer;
+   
+}
+.btn{margin-top: 1rem;}
+p{
+    font-weight:bold;
+    font-size: 15px;
+}
+body{margin-left: 1rem;}
+h1{font-weight: bold;}
